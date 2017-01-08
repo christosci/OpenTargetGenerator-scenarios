@@ -1,0 +1,72 @@
+<scenario magvar="-10.6">
+    <navaids>
+        <!-- BRUSR -->
+        <wp name="BRUSR" lat="34.084799" lon="-112.136446" alt="15000"/>
+        <wp name="BDWIL" lat="33.908044" lon="-112.155071" alt="12000"/>
+        <wp name="ENSEA" lat="33.750575" lon="-112.190475" alt="8000"/>
+        <wp name="FBALL" lat="33.676391" lon="-112.200361" alt="7000"/>
+        <wp name="PGSKN" lat="33.582459" lon="-112.221547" alt="6000"/>
+        <wp name="TLMAN" lat="33.470144" lon="-112.250115" alt="4800"/>
+        <wp name="JAMIL" lat="33.433272" lon="-112.209630" alt="4000"/>
+        <!-- HYDRR -->
+        <wp name="GEELA" lat="33.280375" lon="-112.821510" alt="14000"/>
+        <wp name="PUNNT" lat="33.329341" lon="-112.690056" alt="11000"/>
+        <wp name="TEICH" lat="33.401857" lon="-112.500935" alt="8000"/>
+        <wp name="TESLE" lat="33.428419" lon="-112.425372" alt="7000"/>
+        <wp name="FALGO" lat="33.428569" lon="-112.354252" alt="6000"/>
+        <wp name="CAGOR" lat="33.428718" lon="-112.282784" alt="5000"/>
+        <wp name="BALTE" lat="33.428829" lon="-112.211310" alt="4000"/>
+        <!-- EAGUL -->
+        <wp name="HOMRR" lat="33.880315" lon="-111.404297" alt="16000"/>
+        <wp name="BOHTX" lat="33.795442" lon="-111.566472" alt="14000"/>
+        <wp name="GEENO" lat="33.719270" lon="-111.710596" alt="12000"/>
+        <wp name="QUENY" lat="33.605540" lon="-111.919909" alt="10000"/>
+        <wp name="HINEY" lat="33.525057" lon="-112.074162" alt="7000"/>
+        <wp name="OBASE" lat="33.525670" lon="-112.200962" alt="7000"/>
+        <!-- PINNG -->
+        <wp name="BRDEY" lat="32.911203" lon="-111.488500" alt="16000"/>
+        <wp name="WIGWM" lat="33.072356" lon="-111.729603" alt="12000"/>
+        <wp name="DDUKE" lat="33.155267" lon="-111.854219" alt="10000"/>
+        <wp name="RVANN" lat="33.234703" lon="-111.974008" alt="8000"/>
+        <wp name="LGACY" lat="33.304247" lon="-112.078914" alt="7000"/>
+        <wp name="VISTL" lat="33.341856" lon="-112.176392" alt="7000"/>
+        <wp name="NEELE" lat="33.341807" lon="-112.356365" alt="7000"/>
+    </navaids>
+    <runways>
+        <rwy id="8" lat="33.440774" lon="-112.023784" crs="078" elev="1111"/>
+        <rwy id="7R" lat="33.428788" lon="-112.023929" crs="078" elev="1110"/>
+    </runways>
+    <aircraft>:
+        <!-- BRUSR -->
+        <ac callsign="SWA334"  sq="3101" lat="34.153051" lon="-112.176529" alt="16000" spd="250" type="B737" route="BRUSR BDWIL ENSEA FBALL PGSKN TLMAN JAMIL"/>
+        <ac callsign="SWA789"  sq="3102" lat="34.468217" lon="-112.373733" alt="16000" spd="250" type="B737" route="BRUSR BDWIL ENSEA FBALL PGSKN TLMAN JAMIL"/>
+        <ac callsign="AAL1319" sq="3103" lat="34.781063" lon="-112.545533" alt="16000" spd="250" type="B738" route="BRUSR BDWIL ENSEA FBALL PGSKN TLMAN JAMIL"/>
+        <ac callsign="UAL222"  sq="3104" lat="35.119032" lon="-112.691029" alt="16000" spd="250" type="A320" route="BRUSR BDWIL ENSEA FBALL PGSKN TLMAN JAMIL"/>
+        <ac callsign="SKW5577" sq="3105" lat="35.464116" lon="-112.809388" alt="16000" spd="250" type="CRJ2" route="BRUSR BDWIL ENSEA FBALL PGSKN TLMAN JAMIL"/>
+        <ac callsign="N75PC"   sq="3106" lat="35.791193" lon="-112.926912" alt="16000" spd="250" type="C25B" route="BRUSR BDWIL ENSEA FBALL PGSKN TLMAN JAMIL"/>
+        <ac callsign="FDX411"  sq="3107" lat="36.141580" lon="-113.031366" alt="16000" spd="250" type="MD11" route="BRUSR BDWIL ENSEA FBALL PGSKN TLMAN JAMIL"/>
+        <!-- HYDRR -->
+        <ac callsign="ASH2549" sq="3117" lat="33.229535" lon="-112.941694" alt="15000" spd="250" type="E170" route="GEELA PUNNT TEICH TESLE FALGO CAGOR BALTE"/>
+        <ac callsign="CPZ5564" sq="3120" lat="33.129921" lon="-113.321624" alt="15000" spd="250" type="E195" route="GEELA PUNNT TEICH TESLE FALGO CAGOR BALTE"/>
+        <ac callsign="UAL470"  sq="3121" lat="33.015790" lon="-113.700049" alt="15000" spd="250" type="B738" route="GEELA PUNNT TEICH TESLE FALGO CAGOR BALTE"/>
+        <ac callsign="AAL551"  sq="3122" lat="32.913994" lon="-114.089929" alt="15000" spd="250" type="A321" route="GEELA PUNNT TEICH TESLE FALGO CAGOR BALTE"/>
+        <ac callsign="SWA325"  sq="3123" lat="32.701499" lon="-114.864715" alt="15000" spd="250" type="B738" route="GEELA PUNNT TEICH TESLE FALGO CAGOR BALTE"/>
+        <ac callsign="JBU878"  sq="3124" lat="32.784337" lon="-114.375562" alt="15000" spd="250" type="E195" route="GEELA PUNNT TEICH TESLE FALGO CAGOR BALTE"/>
+        <ac callsign="HAL73"   sq="3125" lat="32.568117" lon="-115.268035" alt="15000" spd="250" type="B763" route="GEELA PUNNT TEICH TESLE FALGO CAGOR BALTE"/>
+        <!-- EAGUL -->
+        <ac callsign="AAL663"  sq="3110" lat="33.927259" lon="-111.364144" alt="17000" spd="250" type="A320" route="HOMRR BOHTX GEENO QUENY HINEY OBASE"/>
+        <ac callsign="AAL662"  sq="3111" lat="34.204881" lon="-111.133781" alt="17000" spd="250" type="A319" route="HOMRR BOHTX GEENO QUENY HINEY OBASE"/>
+        <ac callsign="AAL65"   sq="3112" lat="34.471222" lon="-110.890908" alt="17000" spd="250" type="A333" route="HOMRR BOHTX GEENO QUENY HINEY OBASE"/>
+        <ac callsign="SKW3323" sq="3113" lat="34.996051" lon="-110.346330" alt="17000" spd="250" type="CRJ9" route="HOMRR BOHTX GEENO QUENY HINEY OBASE"/>
+        <ac callsign="BAW288"  sq="3114" lat="34.731907" lon="-110.627825" alt="17000" spd="250" type="B744" route="HOMRR BOHTX GEENO QUENY HINEY OBASE"/>
+        <ac callsign="AAL921"  sq="3115" lat="35.558147" lon="-109.837183" alt="17000" spd="250" type="A321" route="HOMRR BOHTX GEENO QUENY HINEY OBASE"/>
+        <ac callsign="COPPER8" sq="3116" lat="35.275426" lon="-110.090303" alt="17000" spd="250" type="K35R" route="HOMRR BOHTX GEENO QUENY HINEY OBASE"/>
+        <!-- PINNG -->
+        <ac callsign="SWA113"  sq="3126" lat="32.860935" lon="-111.393026" alt="17000" spd="250" type="B738" route="BRDEY WIGWM DDUKE RVANN LGACY VISTL NEELE"/>
+        <ac callsign="SKW5792" sq="3127" lat="32.691980" lon="-111.038948" alt="17000" spd="250" type="CRJ7" route="BRDEY WIGWM DDUKE RVANN LGACY VISTL NEELE"/>
+        <ac callsign="DAL505"  sq="3130" lat="32.530005" lon="-110.683528" alt="17000" spd="250" type="B752" route="BRDEY WIGWM DDUKE RVANN LGACY VISTL NEELE"/>
+        <ac callsign="SWA727"  sq="3131" lat="31.815106" lon="-109.296200" alt="17000" spd="250" type="A320" route="BRDEY WIGWM DDUKE RVANN LGACY VISTL NEELE"/>
+        <ac callsign="AAL274"  sq="3132" lat="32.184558" lon="-109.972524" alt="17000" spd="250" type="A319" route="BRDEY WIGWM DDUKE RVANN LGACY VISTL NEELE"/>
+        <ac callsign="UPS757"  sq="3133" lat="31.995224" lon="-109.626658" alt="17000" spd="250" type="B752" route="BRDEY WIGWM DDUKE RVANN LGACY VISTL NEELE"/>
+    </aircraft>
+</scenario>
