@@ -36,7 +36,7 @@
         <rwy id="8" lat="33.440774" lon="-112.023784" crs="078" elev="1111"/>
         <rwy id="7R" lat="33.428788" lon="-112.023929" crs="078" elev="1110"/>
     </runways>
-    <aircraft>:
+    <aircraft>
         <!-- BRUSR -->
         <ac callsign="SWA334"  sq="3101" lat="34.153051" lon="-112.176529" alt="16000" spd="250" type="B737" route="BRUSR BDWIL ENSEA FBALL PGSKN TLMAN JAMIL"/>
         <ac callsign="SWA789"  sq="3102" lat="34.468217" lon="-112.373733" alt="16000" spd="250" type="B737" route="BRUSR BDWIL ENSEA FBALL PGSKN TLMAN JAMIL"/>
