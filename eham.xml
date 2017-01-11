@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<scenario magvar="0">
+    <navaids>
+        <wp name="SUGOL" lat="52.525105" lon="3.968109" alt="7000"/>
+        <wp name="RIVER" lat="51.911409" lon="4.134092" alt="7000"/>
+        <wp name="ARTIP" lat="52.509015" lon="5.571970" alt="7000"/>
+        <wp name="SPL"   lat="52.331247" lon="4.751275"/>
+        <wp name="SPY"   lat="52.539731" lon="4.855573"/>
+        <wp name="PAM"   lat="52.333520" lon="5.097794"/>
+        <wp name="CH"    lat="52.220492" lon="4.557833"/>
+        <wp name="OA"    lat="52.470088" lon="4.753621"/>
+        <wp name="NV"    lat="52.151277" lon="4.765068"/>
+    </navaids>
+    <runways>
+        <rwy id="18R" lat="52.361809" lon="4.712074" crs="183" elev="-13"/>
+        <rwy id="18C" lat="52.329454" lon="4.740135" crs="183" elev="-12"/>
+        <rwy id="06"  lat="52.289430" lon="4.738272" crs="058" elev="-11"/>
+        <rwy id="27"  lat="52.318220" lon="4.793029" crs="267" elev="-12"/>
+        <rwy id="36C" lat="52.303191" lon="4.737621" crs="003" elev="-12"/>
+        <rwy id="36R" lat="52.292206" lon="4.777473" crs="003" elev="-11"/>
+    </runways>
+    <aircraft>
+        <!-- SUGOL -->
+        <ac callsign="KLM625"  sq="4521" lat="52.529852" lon="3.374874" alt="12000" spd="250" type="B744" route="SUGOL SPL"/>
+        <ac callsign="UAL844"  sq="4522" lat="52.528982" lon="2.857752" alt="17000" spd="250" type="B773" route="SUGOL SPL"/>
+        <ac callsign="DAL422"  sq="4523" lat="52.526019" lon="2.046776" alt="25000" spd="250" type="B772" route="SUGOL SPL"/>
+        <ac callsign="EZY48E"  sq="4524" lat="52.519978" lon="1.240836" alt="25000" spd="250" type="A319" route="SUGOL SPL"/>
+        <ac callsign="MPH7122" sq="4525" lat="52.516798" lon="0.485611" alt="25000" spd="250" type="B744" route="SUGOL SPL"/>
+        <ac callsign="DAL74"   sq="4526" lat="52.529611" lon="-0.45190" alt="25000" spd="250" type="B764" route="SUGOL SPL"/>
+        <!-- ARTIP -->
+        <ac callsign="CCA68"   sq="4527" lat="52.526148" lon="6.188346" alt="12000" spd="250" type="B744" route="ARTIP SPL"/>
+        <ac callsign="AFL407"  sq="4530" lat="52.509923" lon="6.977969" alt="17000" spd="250" type="T154" route="ARTIP SPL"/>
+        <ac callsign="DLH506"  sq="4531" lat="52.481977" lon="7.806702" alt="25000" spd="250" type="A319" route="ARTIP SPL"/>
+        <ac callsign="MSR757"  sq="4532" lat="52.462540" lon="8.659142" alt="25000" spd="250" type="B738" route="ARTIP SPL"/>
+        <ac callsign="UAE149"  sq="4533" lat="52.445124" lon="9.604911" alt="25000" spd="250" type="B773" route="ARTIP SPL"/>
+        <ac callsign="SVA993"  sq="4534" lat="52.423301" lon="10.62199" alt="25000" spd="250" type="B744" route="ARTIP SPL"/>
+        <!-- RIVER -->
+        <ac callsign="RYR1136" sq="4535" lat="51.646849" lon="3.809104" alt="12000" spd="250" type="B734" route="RIVER SPL"/>
+        <ac callsign="IBE160P" sq="4536" lat="51.351357" lon="3.476923" alt="17000" spd="250" type="A320" route="RIVER SPL"/>
+        <ac callsign="SWR40X"  sq="4537" lat="51.016903" lon="3.017417" alt="25000" spd="250" type="A320" route="RIVER SPL"/>
+        <ac callsign="KLM1608" sq="4540" lat="50.718762" lon="2.592443" alt="25000" spd="250" type="B738" route="RIVER SPL"/>
+        <ac callsign="VLG1374" sq="4542" lat="50.332264" lon="2.033216" alt="25000" spd="250" type="A320" route="RIVER SPL"/>
+    </aircraft>
+</scenario>
